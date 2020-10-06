@@ -35,7 +35,7 @@ int main(){
     }
     printf("target:\n");
     scanf("%d", &target);
-    Solution so;
+    Solution so; 
     vector<int> result = so.twoSum(nums, target);
     printf("[%d, %d]\n", result[0], result[1]);
 }
